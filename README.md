@@ -4,8 +4,7 @@
 ---
 #
 #
-**SXEP-0001** We inherit the following standards from original XMPP specification. In case of contradiction with this standards
-SXEP has higher priority.
+**SXEP-0001** We inherit the following standards from original XMPP specification. In case of contradiction with this standards SXEP has higher priority.
 - RFC 6120: XMPP CORE
 - RFC 6121: XMPP IM
 - RFC 7395: XMPP Subprotocol for WebSocket
@@ -24,6 +23,8 @@ SXEP has higher priority.
 - XEP-0220: Server Dialback 1.1.1
 - XEP-0237: Roster Versioning 1.3
 
-**SXEP-0002** No registration can be present in the sxep based software.
-**SXEP-0003** Client parties should only be able to transmit messages in an encrypted way only. Plain text messages should not be present.
-**SXEP-0004** TBD
+**SXEP-0002** No registration should be present nor any passwords that .
+
+**SXEP-0003** Client parties should be able to transmit text messages in an encrypted way only. Plain text messages should not be present, but all base protocol messages (XML data) should be in plain text. No need to encypt this.
+
+**SXEP-0004** Usernames are public keys or some data which can be used to get public key without any decryption.
