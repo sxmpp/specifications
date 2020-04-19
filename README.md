@@ -23,7 +23,7 @@
 - XEP-0220: Server Dialback 1.1.1
 - XEP-0237: Roster Versioning 1.3
 
-**SXEP-0002** No registration should be present nor any passwords that .
+**SXEP-0002** No registration should be present nor any passwords.
 
 **SXEP-0003** Client parties should be able to transmit text messages in an encrypted way only. Plain text messages should not be present, but all base protocol messages (XML data) should be in plain text. No need to encypt this.
 
